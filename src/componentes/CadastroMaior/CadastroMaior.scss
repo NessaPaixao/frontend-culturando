@@ -1,0 +1,35 @@
+.CadastroMaior {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:#6d1345; 
+  background-color: #dedede;
+  font-family: 'Oswald', sans-serif;
+  .Texto{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 63px;
+  }
+form {
+  margin-left: 15px; 
+.cadastro{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    border: none;
+    width: 220px;
+    height: 35px;
+    border: 2px solid #cc6457f1;
+    border-radius: 10px;
+    padding: 0 20px;
+    color:#6d1345; 
+    outline: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+}
+}

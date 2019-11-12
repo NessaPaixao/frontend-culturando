@@ -1,0 +1,41 @@
+.PP{
+    height: 232px;
+    width: 100%;
+    background: linear-gradient(to right,#6d1345,#7e154f 20%, #df5442 );
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    .nome{
+        margin-top: 15px;
+    }
+    .linha{
+        background-color: white;
+        width: 90%;
+        height:2px;
+        
+    }
+    .texto{
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-top: 20px;
+        color: white;
+    }
+    .icones{
+        width: 210px;
+        height: 90px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .youtube{
+            width: 37px;
+            height: 37px;
+        }
+    }
+    .icones img{
+        width: 30px;
+        height: 30px;
+    }
+
+}

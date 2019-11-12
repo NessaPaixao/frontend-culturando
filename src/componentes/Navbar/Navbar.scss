@@ -1,0 +1,67 @@
+.Navbar {
+    nav {
+      top: 0;
+      position: fixed;
+      width: 100%;
+      height: 70px;
+      background: linear-gradient(to right,#6d1345,#7e154f 20%, #df5442 );
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+      #nome img{
+        width: 215px;
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 19px;
+        
+      }
+      #menu-hamburguer {
+        margin-right: 60px;
+        width: 40px;
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+  
+        span {
+          width: 100%;
+          height: 15px;
+          background-color: white;
+          border-radius: 20px;
+          margin-left: 90px;
+          margin-top: 5px;  
+        }
+      }
+    }
+    .menu {
+      width: 59%;
+      height: 329px;
+      background-color:#7e154fc9;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      transform: translateX(-700px);
+      transition: 0.5s;
+      position:fixed;
+      top: 70px;
+      left: 0;
+      margin-left:130px;
+      a {
+        font-family: 'Oswald', sans-serif;
+        
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
+    }
+    .ativo {
+      transform: translateX(0);
+    }
+  }

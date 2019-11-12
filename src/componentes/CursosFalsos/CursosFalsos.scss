@@ -1,0 +1,48 @@
+.CursosF{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+
+    img{
+        width: 125px;
+        height: 125px;
+        border-radius: 100%;
+        margin-top: 20px;
+    } 
+    h2{
+        font-weight: 600;
+        font-size: 27px;
+    }
+     
+    p{
+        width: 69%;
+        font-size: 18px;
+        text-align: center; 
+        
+        
+    }
+    #botaofalso{
+        outline: none;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 20px;
+        height: 50px;
+        width: 150px;
+        border-radius: 30px;
+        font-weight: 800;
+        font-size: 22px;
+        color:white;
+        border:none;
+        background: linear-gradient(to right,#6d1345,#7e154f 15%, #df5442 );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #Risco1{
+        margin-top: 15px;
+        background: black;
+        width: 92%;
+        height: 2px;
+    }
+}
