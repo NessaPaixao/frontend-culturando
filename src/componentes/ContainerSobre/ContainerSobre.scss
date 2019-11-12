@@ -1,0 +1,63 @@
+body{
+    background:linear-gradient(to top,#6d1345,#7e154f 20%, #df5442 );
+  }
+  
+  .Pessoas{
+    background-size: cover;
+    width: 100%;
+    
+  }
+  .Perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+    
+  }
+  #linkedin{
+    margin-top: 10px;
+  }
+  #Risco{
+    width: 100%;
+    height: 2px;;
+  }
+  #Titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #Titulo h1{
+    margin-top: 10px;
+  }
+  
+  #Titulo p{
+    margin:10px;
+  }
+  
+  .Perfil #Fotoperfil{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    border: white 4px dashed;
+  }
+  #Redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  
+  }
+  
+  #Redes img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+  }
+  
+  #Redes a{
+    cursor: pointer;
+  }
