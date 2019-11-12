@@ -6,6 +6,7 @@ import Cadastro from './componentes/CadastroMaior/CadastroMaior.js';
 import DadosP from './componentes/DadosCursos2/DadosCursos2.js'
 import Cursos from './componentes/TodosCursos/TodosCursos.js';
 import DadosB from './componentes/DadosCursos/DadosCursos.js';
+import Sobre from './componentes/Sobre/Sobre.js';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Route exact path="/" component={Home} />
+      <Route path="/Sobre-nós" component={Sobre} />
       <Route path="/cadastro" component={Cadastro} />
       <Route path="/Cursos" component={Cursos} />
       <Route path="/Informações-Pintura" component={DadosP} />
