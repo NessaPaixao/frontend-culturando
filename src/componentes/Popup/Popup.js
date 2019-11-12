@@ -1,6 +1,6 @@
 import React from 'react';
 import './Popup.scss';
-import { Link } from 'react-router-dom';
+
 
 const Popup = ({fechar}) => {
 

@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import Input from "../Input/Input.js";
 import "./CadastroMaior.scss";
-import { Link } from 'react-router-dom';
 import {API_URL} from '../../Api.js';
 
 const CadastroMaior = () => {
@@ -35,7 +34,7 @@ const CadastroMaior = () => {
     }).then(value => {
       if(value.id) {
         alert('Cadastrado com sucesso!');
-        window.open("http://localhost:3006/Cursos")
+        window.open("http://localhost:3000/Cursos")
         
       } else{
         alert('Erro ao cadastrar!')
@@ -115,7 +114,7 @@ const CadastroMaior = () => {
           atualizarState={setSenha}
           obrigatorio
         />
-        <Link to="/Cursos" ><input className="cadastro" type="submit" value={"Cadastrar"} /></Link>
+        <input className="cadastro" type="submit" value={"Cadastrar"} />
       
       </form>
     </div>
