@@ -2,7 +2,7 @@ import React from 'react';
 import './ContainerSobre.scss';
 
 
-const Sobrenos = ({ ldin, imagem, nome, linkedin }) => {
+const Sobrenos = ({ ldin, imagem, nome, linkedin}) => {
     return (
         <div className="Sobrenos">
             <div className="Perfil">
@@ -13,7 +13,7 @@ const Sobrenos = ({ ldin, imagem, nome, linkedin }) => {
                    </div>
 
 
-                <div id="Risco"></div>
+                <div id="linhal"></div>
             </div>
         </div>
 
