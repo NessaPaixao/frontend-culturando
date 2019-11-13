@@ -2,7 +2,7 @@ import React from 'react';
 import './Popup.scss';
 
 
-const Popup = ({fechar}) => {
+const Popup = () => {
 
     return ( 
         <div className="fundo">
@@ -15,7 +15,7 @@ const Popup = ({fechar}) => {
                         <p>*Copia do comprovante de residência</p>
                         <p>*1 foto 3X4</p>
                     </p>
-                        <button onClick={fechar}> OK</button>
+                        <button > OK</button>
             </div>
         </div>
 

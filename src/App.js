@@ -20,6 +20,6 @@ const App = () => {
       <Route path="/Informações-Pintura" component={DadosP} />
       <Route path="/Informações-Balé" component={DadosB} />
     </BrowserRouter>
-  )
+  ) 
 }
 export default App;
