@@ -117,6 +117,7 @@ const CadastroMaior = () => {
         <input className="cadastro" type="submit" value={"Cadastrar"} />
       
       </form>
+    
     </div>
     );
   }

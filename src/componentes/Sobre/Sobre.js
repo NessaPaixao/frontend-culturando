@@ -4,7 +4,7 @@ import Sobrenos from '../ContainerSobre/ContainerSobre.js';
 
 // Icones do google
 import Linkedin from '../../imagens/linkedin.png'
-import Gmail from '../../imagens/gmail.png'
+
 
 // Fotos dos integrantes
 import Vanessa from '../../imagens/Vanessa.png';

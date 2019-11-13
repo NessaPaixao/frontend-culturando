@@ -10,6 +10,7 @@ import Sobre from './componentes/Sobre/Sobre.js';
 import Popup from './componentes/Popup/Popup.js';
 
 
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ const App = () => {
       <Route path="/Inscrição-P-2" component={Popup}/>
       <Route path="/Inscrição-B-1" component={Popup}/>
       <Route path="/Inscrição-B-2" component={Popup}/>
+
     </BrowserRouter>
   ) 
 }
