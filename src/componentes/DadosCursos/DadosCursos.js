@@ -15,7 +15,7 @@ const DadosCursos = () => {
                     <p>Faixa etária: 3 a 6 anos/Baby</p>
                     <p>Local: CECIN</p>
                     <p >Início das aulas: 03/02/2020</p>
-                    <button>INSCREVA-SE</button>
+                    <Link to="/Inscrição-B-1"><button>INSCREVA-SE</button> </Link>
                     <div className="Linha"></div>
                     <h2>TURMA 02</h2>
                     <p>Dia: Quinta-feira</p>
@@ -23,7 +23,7 @@ const DadosCursos = () => {
                     <p>Faixa etária: 12 a 17 anos/Juvenil</p>
                     <p>Local: CECIN</p>
                     <p>Início das aulas: 03/02/2020</p>
-                    <button>INSCREVA-SE</button> 
+                    <Link to="/Inscrição-B-2"><button>INSCREVA-SE</button> </Link>
             
                     
             </div>
