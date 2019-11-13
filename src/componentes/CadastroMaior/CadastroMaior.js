@@ -34,7 +34,7 @@ const CadastroMaior = () => {
     }).then(value => {
       if(value.id) {
         alert('Cadastrado com sucesso!');
-        window.open("http://localhost:3000/Cursos")
+          window.location("https://culturando.herokuapp.com/Cursos")
         
       } else{
         alert('Erro ao cadastrar!')
