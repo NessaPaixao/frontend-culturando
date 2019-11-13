@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import './DadosCursos.scss';
+import { Link } from 'react-router-dom';
 import bale from '../../imagens/balé.png';
 
 const DadosCursos = () => {   

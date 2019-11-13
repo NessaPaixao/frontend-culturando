@@ -7,6 +7,7 @@ import DadosP from './componentes/DadosCursos2/DadosCursos2.js'
 import Cursos from './componentes/TodosCursos/TodosCursos.js';
 import DadosB from './componentes/DadosCursos/DadosCursos.js';
 import Sobre from './componentes/Sobre/Sobre.js';
+import Popup from './componentes/Popup/Popup.js';
 
 
 const App = () => {
@@ -19,6 +20,10 @@ const App = () => {
       <Route path="/Cursos" component={Cursos} />
       <Route path="/Informações-Pintura" component={DadosP} />
       <Route path="/Informações-Balé" component={DadosB} />
+      <Route path="/Inscrição-P-1" component={Popup}/>
+      <Route path="/Inscrição-P-2" component={Popup}/>
+      <Route path="/Inscrição-B-1" component={Popup}/>
+      <Route path="/Inscrição-B-2" component={Popup}/>
     </BrowserRouter>
   ) 
 }
