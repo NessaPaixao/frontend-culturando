@@ -31,7 +31,7 @@ const Navbar = () => {
       </nav>
       <section className={`menu ${menuAtivo ? "ativo" : ""}`}>
         <Link onClick={fecharMenu} to="/">Home</Link>
-        <Link onClick={fecharMenu} to="/cadastro">Cadastre-se</Link>
+        <Link onClick={fecharMenu} to="/Cadastro">Cadastre-se</Link>
         <Link onClick={fecharMenu} to="/Cursos">Cursos</Link>
         <Link onClick={fecharMenu} to="/Sobre-nós">Sobre nós </Link>
       </section>

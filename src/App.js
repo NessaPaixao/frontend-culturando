@@ -17,7 +17,7 @@ const App = () => {
       <Navbar />
       <Route exact path="/" component={Home} />
       <Route path="/Sobre-nós" component={Sobre} />
-      <Route path="/cadastro" component={Cadastro} />
+      <Route path="/Cadastro" component={Cadastro} />
       <Route path="/Cursos" component={Cursos} />
       <Route path="/Informações-Pintura" component={DadosP} />
       <Route path="/Informações-Balé" component={DadosB} />
