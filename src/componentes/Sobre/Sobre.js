@@ -20,7 +20,7 @@ const Sobre = () => {
         <div className="Sobre1">
             <div id="Titulo">
                 <h1>Sobre nosso Projeto:</h1>
-                <p>  O site Culturando tem o intuito de informar e realizar matriculas de cursos na cidade de Caieiras. A intenção do nosso site é fazer com que mais pessoastenha acesso aos diversos cursos culturais disponíveisem nossa cidade. </p>
+                <p>  O site Culturando tem o intuito de informar e realizar matriculas de cursos na cidade de Caieiras. A intenção do nosso site é fazer com que mais pessoas tenha acesso aos diversos cursos culturais disponíveis sem nossa cidade. </p>
                 <div id="linhal"></div>
                 <h2>Equipe</h2>
             </div>
