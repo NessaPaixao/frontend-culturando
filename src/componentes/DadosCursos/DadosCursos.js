@@ -14,7 +14,7 @@ const DadosCursos = () => {
                     <p>Dia: Terça-feira</p>
                     <p>Horário: 14:00 às 15:00</p>
                     <p>Faixa etária: 3 a 6 anos/Baby</p>
-                    <p>Local: CECIN</p>
+                    <p>Endereço: R. Argentina, 400 - Jardim Santo Antonio, Caieiras - SP, 07700-000</p>
                     <p >Início das aulas: 03/02/2020</p>
                     <Link to="/Inscrição-B-1"><button>INSCREVA-SE</button> </Link>
                     <div className="Linha"></div>
@@ -22,7 +22,7 @@ const DadosCursos = () => {
                     <p>Dia: Quinta-feira</p>
                     <p>Horário: 14:00 às 15:00</p>
                     <p>Faixa etária: 12 a 17 anos/Juvenil</p>
-                    <p>Local: CECIN</p>
+                    <p>Endereço: R. Argentina, 400 - Jardim Santo Antonio, Caieiras - SP, 07700-000</p>
                     <p>Início das aulas: 03/02/2020</p>
                     <Link to="/Inscrição-B-2"><button>INSCREVA-SE</button> </Link>
             
